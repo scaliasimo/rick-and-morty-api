@@ -1,24 +1,24 @@
 import React from "react";
 import {
-  ToggleFilters,
+  // ToggleFilters,
   Input,
   SearchWrapper,
-  Icon,
-  FiltersTextToggle,
-  FiltersIcons,
+  // Icon,
+  // FiltersTextToggle,
+  // FiltersIcons,
   FiltersWrapper,
   FiltersDiv,
   H1,
   PWrapper,
   P,
 } from "./styles";
-import OpenFiltersIconSVG from "./assets/Open.svg";
-import CloseFiltersIconSVG from "./assets/Close.svg";
+// import OpenFiltersIconSVG from "./assets/Open.svg";
+// import CloseFiltersIconSVG from "./assets/Close.svg";
 
 const Search = ({ setSearch, dropdown, setDropdown }) => {
-  const toggleDropdown = () => {
-    setDropdown(!dropdown);
-  };
+  // const toggleDropdown = () => {
+  //   setDropdown(!dropdown);
+  // };
 
   return (
     <>
